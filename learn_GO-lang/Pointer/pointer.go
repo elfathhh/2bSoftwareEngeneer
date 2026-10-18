@@ -19,5 +19,5 @@ func main(){
 
 	//mengubah nilai angka menggunakan pointer
 	*ptr = 20
-	fmt.Println("Nilai angka setelah diubah:", angka) // nilai 'angka' sudah di ubah ,emjadi pointer '*"" 
+	fmt.Println("Nilai angka setelah diubah:", angka) // nilai 'angka' sudah di ubah ,melalui pointer '*"" 
 }
