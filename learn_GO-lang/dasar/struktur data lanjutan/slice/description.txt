@@ -1,0 +1,8 @@
+Slice pada dasar nya sama saja dengan array. hanya saja, dia lebih 
+fleksibel. Ukuran/kapasitas array sudah dideklarasikan di awal dan tidak bisa dirubah.
+sebaliknya, slice sangat-sangat fleksibel -ukurannya bisa diubah.
+
+di GO ada beberapa cara membuat slice:
+-   []datatype{values} 
+-   slice dari array
+-   make()
