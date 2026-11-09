@@ -1,0 +1,35 @@
+A function is a block of statements that can be used repeatedly in a program.
+
+A function will not execute automatically when a page loads.
+
+A function will be executed by a call to the function.
+
+To create (often referred to as declare) a function, do the following:
+- Use the func keyword.
+- Specify a name for the function, followed by parentheses ().
+- Finally, add code that defines what the function should do, inside curly braces {}.
+
+SYNTAX:
+func FunctionName() {
+  // code to be executed
+}
+
+CALL A FUNCTION
+
+Functions are not executed immediately. They are "saved for later use", 
+and will be executed when they are called.
+
+In the main.go file, we create a function named "myMessage()".
+The opening curly brace ( { )
+indicates the beginning of the function code,
+and the closing curly brace ( } ) indicates the end of the function.
+
+NAMING RULES FOR GO FUNCTION 
+__
+- A function name must start with a letter
+- A function name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ )
+- Function names are case-sensitive
+- A function name cannot contain spaces
+- If the function name consists of multiple words, techniques introduced for multi-word variable naming can be used
+
+Tip: Give the function a name that reflects what the function does!
